@@ -1,0 +1,229 @@
+img {
+    max-width: 100%;
+}
+body {
+  background-color: #e5f2f8;
+}
+.notification-message {
+  background-color: #7dcef3;
+}
+.headerImage {
+  background: url("../public/topimg.jpg");
+  /* linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  object-fit: cover;
+  max-height: 400px;
+  height: 400px;
+  max-width: 200px;
+  width: 200px;
+}
+.hero-sec {
+  /* background-color: #E5F2F8; */
+  margin-left: 120px;
+  margin-right: 120px;
+}
+.background-clr {
+  background-color: #e5f2f8;
+}
+.hero-text {
+  font-family: "Means Web";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 100.72px;
+  line-height: 113px;
+  width: 1064.49px;
+  left: 120px;
+  top: 120px;
+  color: #003e6d;
+}
+.headerstyle {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+}
+.hero-small-text {
+  font-family: "Messina Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24.72px;
+  line-height: 41px;
+  left: 120px;
+  top: 505px;
+  color: #003e6d;
+  letter-spacing: 0.015em;
+  width: 258px;
+}
+.hero-input-filed {
+  width: 531.06px;
+  height: 78.99px;
+  left: 120px;
+  top: 745.82px;
+  font-weight: 300;
+  font-size: 25.72px;
+  line-height: 165%;
+}
+.input-btn {
+  background-color: #ff763c;
+  width: 217px;
+  color: #001a2e;
+  font-weight: 700;
+  font-size: 24.72px;
+  line-height: 41px;
+  text-align: center;
+  align-items: center;
+}
+input,
+input::-webkit-input-placeholder {
+  display: flex;
+  align-items: center;
+  font-size: 24.72px;
+  line-height: 3;
+}
+.input-btn:hover {
+  text-decoration: underline;
+}
+.inputfield {
+  width: 536px;
+}
+.lastSec {
+  color: #003e6d;
+}
+
+.lastSec p:nth-child(2) {
+  font-family: "Messina Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.72px;
+  line-height: 33px;
+  width: 643.69px;
+
+  letter-spacing: 0.015em;
+}
+
+.lastSec p:nth-child(3) {
+  font-family: "Messina Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19.72px;
+  line-height: 33px;
+
+  letter-spacing: 0.015em;
+}
+.lastSec p:nth-child(4) {
+  width: 643.69px;
+
+  font-family: "Messina Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.72px;
+  line-height: 33px;
+
+  letter-spacing: 0.015em;
+}
+.resp-class {
+  align-items: flex-end;
+}
+.col-reverse {
+  display: flex;
+  margin-top: 60px;
+}
+.design-class {
+  margin-top: 60px;
+}
+.hero-text span {
+  background-color: #7dcef3;
+}
+.text-top span {
+  background-color: #7dcef3;
+}
+.class-pointer {
+  cursor: pointer;
+}
+.text-top{
+    font-family: "Means Web";
+  font-style: normal;
+  font-weight: 500;
+  width: 663.07px;
+
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 0.015em;
+}
+@media screen and (max-width: 768px) {
+  .hero-text {
+    font-size: 87px;
+    text-align: center;
+    margin-top: 130px;
+    position: unset !important;
+  }
+  .hero-small-text {
+    font-size: 50px;
+    position: unset !important;
+    margin-top: 10px !important;
+    line-height: 50px;
+    width: 700.06px !important;
+    text-align: center;
+  }
+  .hero-input-filed {
+    margin: 30px 0 50px 0 !important;
+    position: unset !important;
+    width: 700px;
+  }
+  .hero-responsive-class {
+    justify-content: unset !important;
+    flex-direction: column !important;
+  }
+  body {
+    width: fit-content;
+  }
+
+  .hero-responsive-class .resp-class {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .hero-responsive-img {
+    width: 100%;
+  }
+  .design-class,
+  .responsiv-bottom-img div {
+    max-width: 100%;
+    width: 80%;
+  }
+  .design-class div img {
+    width: 100%;
+  }
+  .col-reverse .row{
+      width: 100%;
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+
+  .responsiv-bottom-img img {
+    width: 100%;
+  }
+  .lastSec {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .lastSec p:nth-child(2) {
+    font-size: 30px;
+    text-align: justify;
+    margin-top: 30px;
+  }
+  .lastSec p:nth-child(3) {
+    font-size: 30px;
+    text-align: justify;
+    margin-top: 30px;
+  }
+  .lastSec p:nth-child(4) {
+    font-size: 30px;
+    text-align: justify;
+    margin-top: 30px;
+  }
+}
